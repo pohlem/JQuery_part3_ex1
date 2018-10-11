@@ -8,7 +8,7 @@
 <body>
   <form>
   	<input type="text"  id="text" value=0 disabled="disabled"></input>
-    <input type="button" name="button" id="clickMe" value="Un clic = 1 euro"></input>
+    <input type="button" name="button" id="clickMe" value="Un clic"></input>
   </form>
   <script>
     $('#clickMe').click(function(){$('#text').val(parseInt($('#text').val())+1);});
